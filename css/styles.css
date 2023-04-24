@@ -384,7 +384,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.thumbnail-card {
+.thumbnail-last {
   width: calc((100%-48px) / 3);
 }
 
