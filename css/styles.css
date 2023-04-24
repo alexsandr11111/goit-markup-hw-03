@@ -411,12 +411,12 @@ footer {
 }
 .footer-logo {
   margin-bottom: 16px;
-
+  display: inline-block;
   font-family: var(--secondery-fon);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: inline-block;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -424,6 +424,7 @@ footer {
 }
 .footer-logo-span {
   color: var(--color-cloud);
+  display: inline-block;
 }
 .footer-text {
   width: 264px;
