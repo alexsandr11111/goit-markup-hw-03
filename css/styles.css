@@ -414,12 +414,7 @@ footer {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding: 100px 0;
-}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
