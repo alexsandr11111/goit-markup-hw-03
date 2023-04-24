@@ -58,19 +58,19 @@ body {
   padding: 0 15px;
 }
 /* ------------------ HEDER---------------- */
-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+.heder {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   align-items: center;
+  width: 1158px;
 }
 
 /* -----logo----- */
 .heder-logo {
-  margin-right: 78px;
+  margin-right: 76px;
 
   font-family: var(--secondery-fon);
   font-weight: 800;
@@ -90,8 +90,19 @@ header {
 /* -------nav----- */
 .nav {
   margin-right: auto;
+  padding: 24px 0 24px;
   display: flex;
   gap: 40px;
+  align-items: center;
+}
+.nav-list {
+  margin-right: auto;
+
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.nav-last {
   font-family: var(--main-fon);
   font-weight: 500;
   font-size: 16px;
