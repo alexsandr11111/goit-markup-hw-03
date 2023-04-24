@@ -146,14 +146,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 188px 0;
 }
 .heroy {
   background-color: #2e2f42;
 }
 .heroy-title {
-  width: 498px;
-  padding-top: 188px;
+  max-width: 496px;
+
   padding-bottom: 48px;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -165,10 +167,9 @@ body {
 
 .heroy-button {
   min-width: 169px;
-  min-height: 56px;
+  height: 56px;
   padding: 16px 32px;
 
-  margin-bottom: 188px;
   background: var(--color-iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -177,10 +178,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
+  display: block;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--color-white);
+
+  border: none;
 }
 .heroy-button:hover {
   background-color: var(--color-ocean);
