@@ -266,12 +266,7 @@ body {
   display: flex;
   gap: 24px;
 }
-.description-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .description {
   background-color: #f4f4fd;
 }
