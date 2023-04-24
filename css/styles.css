@@ -121,6 +121,7 @@ body {
 .address-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .address-mail {
   font-family: var(--main-fon);
@@ -146,9 +147,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 188px 0;
 }
 .heroy {
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 .heroy-title {
