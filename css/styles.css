@@ -240,10 +240,10 @@ body {
 .galerey-section-container {
   display: flex;
   gap: 24px;
-  padding-bottom: 240px;
+  padding-bottom: 120px;
 }
 .galerey-section-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -251,6 +251,9 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-grey);
+}
+.galerey-last {
+  width: calc((100% - 48px) / 3);
 }
 /* ------ /galerey-section -------- */
 /* -------------- description ------------ */
