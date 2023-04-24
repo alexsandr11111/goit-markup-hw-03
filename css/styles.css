@@ -377,9 +377,7 @@ body {
 .thumbnail-container {
   padding-bottom: 120px;
 }
-.thumbnail-img {
-  padding-bottom: 32px;
-}
+
 .thumbnail {
   row-gap: 48px;
   column-gap: 24px;
