@@ -90,7 +90,7 @@ body {
 /* -------nav----- */
 .nav {
   margin-right: auto;
-  padding: 24px 0 24px;
+
   display: flex;
   gap: 40px;
   align-items: center;
@@ -103,6 +103,7 @@ body {
   align-items: center;
 }
 .nav-last {
+  padding: 24px 0 24px;
   font-family: var(--main-fon);
   font-weight: 500;
   font-size: 16px;
