@@ -311,8 +311,11 @@ body {
 
 /* =============================== /INDEX.HTML=========================== */
 /* =============================== PORTFOLIO.HTML=========================== */
+.soft-bar-section {
+  padding: 96px 0 120px;
+}
 .soft-bar-list {
-  padding: 96px 0 72px 0;
+  margin-bottom: 72px;
   display: flex;
   gap: 24px;
   justify-content: center;
@@ -337,6 +340,7 @@ body {
 }
 
 .soft-bar-button:hover {
+  border: 1px solid transparent;
   background: #404bbf;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -353,6 +357,7 @@ body {
   color: var(--color-white);
 }
 .soft-bar-button:focus {
+  border: 1px solid transparent;
   background: #404bbf;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -424,7 +429,6 @@ footer {
 }
 .footer-logo-span {
   color: var(--color-cloud);
-  display: inline-block;
 }
 .footer-text {
   width: 264px;
