@@ -421,8 +421,9 @@ footer {
   padding: 100px 0;
 }
 .footer-logo {
-  margin-bottom: 16px;
   display: inline-block;
+  margin-bottom: 16px;
+
   font-family: var(--secondery-fon);
   font-weight: 800;
   font-size: 18px;
