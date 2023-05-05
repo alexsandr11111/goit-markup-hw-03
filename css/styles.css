@@ -112,10 +112,10 @@ body {
 
   color: var(--color-grey);
 }
-.nav:hover {
+.nav-last:hover {
   color: var(--color-ocean);
 }
-.nav:focus {
+.nav-last:focus {
   color: var(--color-ocean);
 }
 /* address */
